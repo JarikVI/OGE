@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_tems">
+
+    <fragment
+        android:id="@+id/navigation_tems"
+        android:name="com.example.oge.ui.tems.TemsFragment"
+        android:label="@string/title_temsAndAnswers"
+        tools:layout="@layout/fragment_tems" />
+
+    <fragment
+        android:id="@+id/navigation_test"
+        android:name="com.example.oge.ui.tests.TestsFragmente"
+        android:label="@string/title_tests"
+        tools:layout="@layout/fragment_test" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.oge.ui.tests.TestsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1068630314205",
+    "project_id": "ogproject-2a4fc",
+    "storage_bucket": "ogproject-2a4fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068630314205:android:e152b605955f6e38de5f34",
+        "android_client_info": {
+          "package_name": "com.example.oge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_n-IxUnowaNrsiiZ3qjJlOys27IDABvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
