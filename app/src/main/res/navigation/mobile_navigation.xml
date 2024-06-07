@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_test"
-        android:name="com.example.oge.ui.tests.TestsFragmente"
+        android:name="com.example.oge.ui.tests.TestsFragment"
         android:label="@string/title_tests"
         tools:layout="@layout/fragment_test" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.oge.ui.tests.TestsFragment"
+        android:name="com.example.oge.ui.Profile.ProfileFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_profile" />
 </navigation>
